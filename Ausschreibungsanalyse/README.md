@@ -1,4 +1,4 @@
-<a href="https://www.ki.fh-swf.de/new-jupyterhub/hub/user-redirect/git-pull?profile=langflow&repo=https%3A%2F%2Fgithub.com%2Ffhswf%2Flangflow-workshop.git&branch=main&profile=langflow" style=""><img src="https://www.ki.fh-swf.de/cluster_badge.svg" style="height: 32px" alt="Open in FH Cluster"></a>
+<a href="https://www.ki.fh-swf.de/jupyterhub/hub/user-redirect/git-pull?profile=langflow&repo=https%3A%2F%2Fgithub.com%2Ffhswf%2Flangflow-workshop.git&branch=main&profile=langflow" style=""><img src="https://www.ki.fh-swf.de/cluster_badge.svg" style="height: 32px" alt="Open in FH Cluster"></a>
 
 
 # KI mit Spickzettel: RAG verstehen und anwenden
@@ -27,11 +27,17 @@ Dies sind:
 - Die Ausschreibungsdokumente [`ausschreibung.zip`](./ausschreibung.zip)
 - Der RAG-Prozess [`Workshop_RAG_verstehen_und_anwenden.json`](./Workshop_RAG_verstehen_und_anwenden.json)
 
-### 1. Starten Sie Langflow
+### 2. Melden Sie sich auf dem JupyterHub der FH Südwestfalen an
+
+Öffnen Sie dazu [https://www.ki.fh-swf.de/jupyterhub](https://www.ki.fh-swf.de/jupyterhub/hub/user-redirect/git-pull?profile=langflow&repo=https%3A%2F%2Fgithub.com%2Ffhswf%2Flangflow-workshop.git&branch=main&profile=langflow)
+
+Die Anmeldedaten erhalten Sie im Workshop.
+
+### 3. Starten Sie Langflow
 
 ![Screenshot](./img/Screenshot_1.png)
 
-### 2. Importieren Sie den Flow `Workshop_RAG_verstehen_und_anwenden.json`
+### 4. Importieren Sie den Flow `Workshop_RAG_verstehen_und_anwenden.json`
 
 ![Screenshot](./img/Screenshot_2.png)
 
@@ -39,10 +45,10 @@ Anschließend sollte folgender Flow in Langflow angezeigt werden:
 
 ![Screenshot](./img/Screenshot_3.png)
 
-### 3. Fügen Sie die Dokumente hinzu
+### 5. Fügen Sie die Dokumente hinzu
 
 Sie können die weitere oben heruntergeladene ZIP-Datei `ausschreibung.zip` direkt in den entsprechenden Knoten im Flow laden.
 
 ![Screenshot](./img/Screenshot_File.png)
 
-### 4. Öffnen Sie den *Playground* und testen Sie die RAG-Pipeline mit den Fragen.
+### 6. Öffnen Sie den *Playground* und testen Sie die RAG-Pipeline mit den Fragen.
